@@ -23,7 +23,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "test": "echo \"Running tests...\" && exit 0"
+    "test": "cypress run"
   },
   "eslintConfig": {
     "extends": [
@@ -42,6 +42,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "cypress": "^14.5.3"
   }
 }
-
